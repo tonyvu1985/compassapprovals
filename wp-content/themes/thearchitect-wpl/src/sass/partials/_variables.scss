@@ -1,0 +1,32 @@
+/******************************************************************
+
+Stylesheet: Variables.
+
+******************************************************************/
+
+/*********************
+COLORS
+Need help w/ choosing your colors? Try this site out:
+http://0to255.com/
+*********************/
+
+$white:             #ffffff;
+$black:             #353535;
+$gray:              #959595;
+$accent:            #bb3e3e;
+
+$light-gray:        #f7f7f7;
+$dark-gray:        	#424242;
+$meta-gray:       	#f1f1f1;
+$text-color:        #666666;
+
+$link-color:        $accent;
+$link-hover:        darken($link-color, 5%);
+
+$border-color:      #ccc;
+$disabled-gray:     #cfcfcf;
+
+$alert-yellow:      #fffcda;
+$alert-red:         #fbe3e4;
+$alert-green:       #e6efc2;
+$alert-blue:        #d5edf8;

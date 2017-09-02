@@ -1,0 +1,522 @@
+@media only screen and (max-width : 1024px) {
+
+	/* = NAVIGATION
+	-------------------------------------------------------------- */
+
+	nav[role=navigation], nav[role=social]  {
+		display: none;
+	}
+
+	.header nav.mobile_menu {
+		display: block;
+	}
+
+	.header .mobile_menu_button {
+		display: table;
+	}
+
+	/* = TYPOGRAPHY
+	-------------------------------------------------------------- */
+
+	p.lead {
+		font-size: 1.1em;
+	}
+
+	/* = LAYOUT & GRID STYLES
+	-------------------------------------------------------------- */
+
+	/* Columns  */
+	.one_half,
+	.two_third,
+	.one_fourth,
+	.three_fourth {
+		width: 48%;
+		margin-bottom: 2%;
+	}
+
+	.one_third {
+		width: 100%;
+		margin-bottom: 2%;
+	}
+
+	.archive-title,
+	.page-title,
+	.custom-post-type-title,
+	.entry-title,
+	.huge-title {
+		font-size:32px;
+		line-height:120%;
+	}
+
+	body.single-projects .project-cover .line { margin: 10px 0; }
+	body.single-projects .project-cover .hero-title { bottom: 90px;}
+
+	.quarter-width,
+	.third-width,
+	.half-width { width: 50%; }
+
+	/* = PROJECTS
+	-------------------------------------------------------------- */
+
+	/* Module Title */
+	.module-title {
+		padding-top: 52px;
+		padding-bottom: 52px;
+		background: none;
+
+		h3 {
+			font-size: 36px;
+			margin:0 0 0.1em;
+		}
+
+		p {
+			font-size: 24px;
+			line-height: 32px;
+		}
+
+	}
+
+	.block-grid {
+
+		&.columns-3, &.columns-4 {
+
+			.block-item {
+				padding-right: 0;
+
+				&:nth-child(1n) {
+					padding-right: 24px;
+				}
+
+				&:nth-child(2n) {
+					padding-right: 0;
+				}
+
+			  	h1 {
+			  		font-size: 250%;
+			  		max-width: 250px;
+			  	}
+
+			}
+		}
+
+	}
+
+	/* = WIDGETS
+	-------------------------------------------------------------- */
+
+	.footer {
+
+		.widget {
+			padding-bottom: 2%;
+			width: 50%;
+		}
+
+	}
+
+	/* = SHORTCODES
+	-------------------------------------------------------------- */
+
+	.shortcode_team {
+
+		.team_description {
+	    	padding:12px 0px;
+	    }
+
+	}
+
+	.shortcode_price_table_holder.two_columns .shortcode_price_table,
+	.shortcode_price_table_holder.three_columns .shortcode_price_table,
+	.shortcode_price_table_holder.four_columns .shortcode_price_table,
+	.shortcode_price_table_holder.five_columns .shortcode_price_table {
+	  width: 50%;
+	}
+
+}
+
+@media only screen and (max-width : 768px) {
+
+	/* = LAYOUT & GRID STYLES
+	-------------------------------------------------------------- */
+
+	.sidebar {
+		padding-left: 0;
+	}
+
+	/* Columns  */
+	.one_half,
+	.one_third,
+	.two_third,
+	.one_fourth,
+	.three_fourth {
+		width: 100%;
+		margin-bottom: 2%;
+	}
+
+	/* = BLOCK GRID STYLES
+	-------------------------------------------------------------- */
+
+	.quarter-width,
+	.third-width,
+	.half-width { width: 100%; }
+
+	/* = PROJECTS
+	-------------------------------------------------------------- */
+
+	/* Module Title */
+	.module-title {
+		background: none;
+
+		h3 {
+			text-align: center;
+		}
+
+		p {
+			text-align: center;
+		}
+
+	}
+
+	.filter {
+		padding: 32px 0 0;
+		margin:0 auto;
+		text-align: center;
+		float: none;
+	}
+
+	.block-grid {
+
+		&.columns-2, &.columns-3, &.columns-4 {
+
+			.block-item {
+				padding-right: 0 !important;
+
+			  	h1 {
+			  		font-size: 350%;
+			  		max-width: 300px;
+			  	}
+
+			}
+		}
+
+	}
+
+	/* = PAGINATION
+	-------------------------------------------------------------- */
+
+	.projects-pagination {
+
+		.prev-nav {
+			width: 45%;
+		}
+
+		.back-nav {
+			width: 10%;
+
+			i {
+				padding-top:8px;
+				font-size:32px;
+			}
+		}
+
+		.next-nav {
+			width: 45%;
+		}
+
+	}
+
+	/* = WIDGETS
+	-------------------------------------------------------------- */
+
+	.footer {
+
+		.widget {
+			width: 50%;
+		}
+
+	}
+
+	/* = SHORTCODES
+	-------------------------------------------------------------- */
+
+	.shortcode_list_images {
+
+		ul {
+
+			&.two_col li, &.three_col li, &.four_col li {
+		      width: 50%;
+		    }
+
+		}
+
+	}
+
+	.shortcode_team {
+
+		.team_description {
+	    	padding:12px 0px;
+	    }
+
+	}
+
+	.shortcode_price_table_holder.two_columns .shortcode_price_table,
+	.shortcode_price_table_holder.three_columns .shortcode_price_table,
+	.shortcode_price_table_holder.four_columns .shortcode_price_table,
+	.shortcode_price_table_holder.five_columns .shortcode_price_table {
+	  width: 100%;
+	  margin-bottom:24px;
+	}
+
+	.shortcode_text_columns {
+
+	  &.two-cols, &.three-cols, &.four-cols {
+	    -webkit-column-count: 1;
+	    -moz-column-count: 1;
+	    column-count: 1;
+	  }
+
+	}
+	.blog_content {
+
+		.entry-header {
+
+			h3 {
+				font-size: 2em;
+				line-height: 1.2;
+
+			}
+
+			.entry-title {
+				width: 90%;
+			}
+
+		}
+
+		&.shortcode {
+
+			&.col-1 .hentry {
+				width: 98%!important;
+			}
+
+			&.col-2 .hentry {
+				width: 98%;
+				&:nth-child(2n) {
+					margin-right: 0;
+				}
+			}
+
+			&.col-3 .hentry {
+				width: 98%;
+				&:nth-child(3n) {
+					margin-right: 0;
+				}
+			}
+
+		}
+
+
+	}
+
+}
+
+@media only screen and (max-width : 480px) {
+
+	/* = LAYOUT & GRID STYLES
+	-------------------------------------------------------------- */
+
+	.sidebar {
+		padding-left: 0;
+	}
+
+	/* = PROJECTS
+	-------------------------------------------------------------- */
+
+	.block-grid {
+
+		&.columns-2, &.columns-3, &.columns-4 {
+
+			.block-item {
+				padding-right: 0 !important;
+
+			  	h1 {
+			  		font-size: 200%;
+			  		max-width: 90%;
+			  	}
+
+			}
+		}
+
+	}
+
+	/* = PAGINATION
+	-------------------------------------------------------------- */
+
+	.projects-pagination {
+
+		.prev-nav {
+			width: 40%;
+
+			a {
+				font-size:12px;
+			}
+
+		}
+
+		.back-nav {
+			width: 20%;
+
+			i {
+				padding-top:8px;
+				font-size:28px;
+			}
+		}
+
+		.next-nav {
+			width: 40%;
+
+			a {
+				font-size:12px;
+			}
+
+		}
+
+	}
+
+	/* = SHORTCODES
+	-------------------------------------------------------------- */
+
+	.shortcode_list_images {
+
+		ul {
+
+			&.two_col li, &.three_col li, &.four_col li {
+		      width: 100%;
+		    }
+
+		}
+
+	}
+
+	.shortcode_price_table_holder.two_columns .shortcode_price_table,
+	.shortcode_price_table_holder.three_columns .shortcode_price_table,
+	.shortcode_price_table_holder.four_columns .shortcode_price_table,
+	.shortcode_price_table_holder.five_columns .shortcode_price_table {
+	  width: 100%;
+	  margin-bottom:24px;
+	}
+
+	.shortcode_text_columns {
+
+	  &.two-cols, &.three-cols, &.four-cols {
+	    -webkit-column-count: 1;
+	    -moz-column-count: 1;
+	    column-count: 1;
+	  }
+
+	}
+
+	/* = WIDGETS
+	-------------------------------------------------------------- */
+
+	.footer {
+
+		.widget {
+			padding-top:4%;
+			width: 100%;
+			text-align: center;
+		}
+
+	}
+
+}
+
+@media only screen and (max-width : 400px) {
+
+	/* = LAYOUT & GRID STYLES
+	-------------------------------------------------------------- */
+
+	.header {
+
+		.wrap {
+			padding:0 24px;
+		}
+
+	}
+
+	.wrap {
+		padding-left: 24px;
+		padding-right: 24px;
+	}
+
+	/* = TYPOGRAPHY
+	-------------------------------------------------------------- */
+
+	body {
+		font-size: 80%;
+		line-height: 1.5em;
+		margin:12px;
+	}
+
+	h1 {
+		font-size:2em;
+	}
+
+	/* = PROJECTS
+	-------------------------------------------------------------- */
+
+	.project-cover {
+
+		.hero-title {
+			bottom: 124px !important;
+			left: 0px !important;
+
+			h1 {
+				font-size: 300% !important;
+				max-width: 90% !important;
+			}
+
+		}
+
+	}
+
+	.filter {
+		display:none;
+	}
+
+	/* = SHORTCODES
+	-------------------------------------------------------------- */
+	.blog_content {
+
+		.entry-header {
+
+			h3 {
+				font-size: 2em;
+				line-height: 1.2;
+			}
+
+			.entry-title {
+				width: 90%;
+			}
+		}
+	}
+
+	/* = SHORTCODES
+	-------------------------------------------------------------- */
+
+	.shortcode_divider {
+	  height:30px;
+	  margin:32px auto;
+	  width:100%;
+	  border-top: none;
+
+	  h3 {
+	    font-size:22px ;
+	    margin:0 auto;
+	    padding:0;
+	    width:100%;
+	  }
+
+	  &:after { content: "\0020"; display: block; height: 0; clear: both; visibility: hidden; }
+
+	}
+
+}

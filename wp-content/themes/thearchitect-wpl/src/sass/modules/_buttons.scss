@@ -1,0 +1,182 @@
+/******************************************************************
+
+Stylesheet: Button Styles
+
+******************************************************************/
+
+/*********************
+BUTTON DEFAULTS
+We're gonna use a placeholder selector here
+so we can use common styles. We then use this
+to load up the defaults in all our buttons.
+
+Here's a quick video to show how it works:
+http://www.youtube.com/watch?v=hwdVpKiJzac
+
+*********************/
+
+.btn, %btn {
+  position: relative;
+  display: inline-block;
+  width: auto;
+  margin: 0;
+  padding: 0px 24px;
+  border: 2px solid $black;
+  font-size: 14px;
+  font-weight: 600;
+  text-align: center;
+  color: $black;
+  text-decoration: none;
+  cursor: pointer;
+  white-space: nowrap;
+  outline: none;
+  font-style: normal;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+
+  text-shadow: none;
+
+  background-color: transparent;
+  -webkit-transition: all 0.1s linear;
+  -moz-transition: all 0.1s linear;
+  -ms-transition: all 0.1s linear;
+  -o-transition: all 0.1s linear;
+  transition: all 0.1s linear;
+
+  border-radius: 3px;
+  -webkit-font-smoothing: antialiased;
+
+  &:hover, &:focus {
+    background-color: $accent;
+    border-color: $accent;
+    color: #fff;
+    text-decoration: none;
+  }
+
+  &.left {
+      float: left;
+  }
+
+  &.right {
+      float: right;
+  }
+
+  &.small {
+    font-size: 12px;
+    height: 36px;
+    line-height: 36px;
+    padding:0 12px;
+  }
+
+  &.medium {
+    font-size: 13px;
+    padding:12px 24px;
+  }
+
+  &.large {
+    font-size: 18px;
+    padding:18px 32px;
+  }
+
+  &.extra_large {
+    font-size: 24px;
+    padding: 24px;
+  }
+
+  &.full_width {
+    width:100%;
+    height: 90px;
+    line-height: 90px;
+    font-size: 20px;
+    padding:0;
+    text-align: center;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    -o-box-sizing: border-box;
+  }
+
+  &.white {
+    color: $black;
+    border-color: $white;
+    background-color: $white;
+
+    &:hover {
+      color: $white;
+      border-color: $gray;
+      background-color: $gray;
+    }
+
+  }
+
+  &.gray {
+    color: $white;
+    border-color: $gray;
+    background-color: $gray;
+
+    &:hover {
+      background-color: $black;
+      border-color: $black;
+    }
+
+  }
+
+  &.black {
+    color: $white;
+    border-color: $black;
+    background-color: $black;
+
+    &:hover {
+      color: $white;
+      background-color: $accent;
+      border-color: $accent;
+    }
+
+  }
+
+  &.accent {
+    color: $white;
+    border-color: $accent;
+    background-color: $accent;
+
+      &:hover {
+        border-color: $black;
+        background-color: $black;
+      }
+
+  }
+
+  i {
+    margin: 0 0 0 10px;
+  }
+
+  &.small i {
+    margin: 0 0 0 10px;
+  }
+
+  &.large i {
+    margin: 0 0 0 17px;
+  }
+
+  &.extra_large i,
+  &.full_width i {
+    margin: 0 0 0 19px;
+  }
+
+}
+
+.accent-btn {
+  @extend %btn; // here we load the btn defaults
+  border-color: $accent;
+  background-color: $accent;
+  color: $white;
+
+  &:hover,
+  &:focus,
+  &:active {
+    outline: 0;
+    border-color: $gray;
+    background-color: $gray;
+  } // end state
+
+}

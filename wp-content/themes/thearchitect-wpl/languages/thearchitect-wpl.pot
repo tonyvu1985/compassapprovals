@@ -1,0 +1,1167 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the thearchitect-wpl package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#: inc/custom-post-type/projects.php:23 inc/library.php:432 inc/library.php:437
+#: inc/library.php:442 inc/library.php:446 inc/library.php:451
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: thearchitect-wpl 0.0.1\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2016-08-31 19:23+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+
+#: 404.php:16
+msgid "Error 404 - Article Not Found"
+msgstr ""
+
+#: 404.php:19
+msgid ""
+"The article you were looking for was not found, but maybe try looking again!"
+msgstr ""
+
+#: archive-projects.php:29 inc/shortcodes.php:1244 template-projects.php:36
+msgid "Browse all"
+msgstr ""
+
+#: archive-projects.php:31 inc/shortcodes.php:1245 template-projects.php:38
+msgid "By sectors"
+msgstr ""
+
+#: archive-projects.php:36 inc/shortcodes.php:1266 template-projects.php:43
+#, php-format
+msgid "View all projects in %s"
+msgstr ""
+
+#: archive-projects.php:106 single-projects.php:135 single.php:30
+#: template-page-sidebar-left.php:63 template-page-sidebar.php:58
+msgid "Oops, Post Not Found!"
+msgstr ""
+
+#: comments.php:15
+msgid "<span>No</span> discussion"
+msgstr ""
+
+#: comments.php:15
+msgid "<span>1</span> comment"
+msgstr ""
+
+#: comments.php:15
+msgid "<span>%</span> comments"
+msgid_plural "<span>%</span> comments"
+msgstr[0] ""
+msgstr[1] ""
+
+#: comments.php:34
+msgid "&larr; Previous Comments"
+msgstr ""
+
+#: comments.php:35
+msgid "More Comments &rarr;"
+msgstr ""
+
+#: comments.php:40
+msgid "Comments are closed."
+msgstr ""
+
+#: content-none.php:13
+msgid "Sorry, no posts matched your criteria"
+msgstr ""
+
+#: content.php:71
+msgid "Sticky Post"
+msgstr ""
+
+#: footer.php:29
+msgid "Designed by"
+msgstr ""
+
+#: footer.php:29
+msgid "WPlook"
+msgstr ""
+
+#: functions.php:106
+msgid "1280px wide"
+msgstr ""
+
+#: functions.php:107
+msgid "1280px by 500px"
+msgstr ""
+
+#: functions.php:120
+msgid "Main Menu"
+msgstr ""
+
+#: functions.php:121
+msgid "Secondary Menu"
+msgstr ""
+
+#: header.php:60
+msgid "Secondary Navigation"
+msgstr ""
+
+#: header.php:76
+msgid "Primary Navigation"
+msgstr ""
+
+#: inc/comment.php:31 inc/comment.php:69 inc/library.php:26
+msgid "Your comment is awaiting moderation."
+msgstr ""
+
+#: inc/comment.php:55
+msgid "Pingback/Trackback"
+msgstr ""
+
+#: inc/comment.php:98 inc/library.php:843
+msgid "Name"
+msgstr ""
+
+#: inc/comment.php:100
+msgid "Email"
+msgstr ""
+
+#: inc/comment.php:102
+msgid "Website"
+msgstr ""
+
+#: inc/comment.php:105
+#, php-format
+msgid "Required fields are marked %s"
+msgstr ""
+
+#: inc/comment.php:108
+msgid "Comment"
+msgstr ""
+
+#: inc/comment.php:109
+#, php-format
+msgid "You must be <a href=\"%s\">logged in</a> to post a comment."
+msgstr ""
+
+#: inc/comment.php:110
+#, php-format
+msgid ""
+"Logged in as <a href=\"%1$s\">%2$s</a>. <a href=\"%3$s\" title=\"Log out of "
+"this account\">Log out?</a>"
+msgstr ""
+
+#: inc/comment.php:111
+msgid "Your email address will not be published."
+msgstr ""
+
+#: inc/comment.php:114
+msgid "Leave a Comment"
+msgstr ""
+
+#: inc/comment.php:115
+#, php-format
+msgid "Leave a Reply to %s"
+msgstr ""
+
+#: inc/comment.php:116
+msgid "or Cancel reply"
+msgstr ""
+
+#: inc/comment.php:117
+msgid "Send Comment"
+msgstr ""
+
+#: inc/custom-post-type/meta-boxes.php:22
+msgid "Page Options"
+msgstr ""
+
+#: inc/custom-post-type/meta-boxes.php:29
+msgid "Page Layout"
+msgstr ""
+
+#: inc/custom-post-type/meta-boxes.php:35
+#: inc/custom-post-type/meta-boxes.php:283
+msgid "Fullwidth"
+msgstr ""
+
+#: inc/custom-post-type/meta-boxes.php:39
+msgid "Boxed"
+msgstr ""
+
+#: inc/custom-post-type/meta-boxes.php:51
+msgid "Use Default Title"
+msgstr ""
+
+#: inc/custom-post-type/meta-boxes.php:52
+msgid ""
+"If you want a simple page layout with the default page title within your "
+"page header, enable this option."
+msgstr ""
+
+#: inc/custom-post-type/meta-boxes.php:57
+msgid "Enable"
+msgstr ""
+
+#: inc/custom-post-type/meta-boxes.php:61
+msgid "Disable"
+msgstr ""
+
+#: inc/custom-post-type/meta-boxes.php:73
+msgid "Featured Image Height"
+msgstr ""
+
+#: inc/custom-post-type/meta-boxes.php:74
+msgid "Set the height of the Featured Image area for this page."
+msgstr ""
+
+#: inc/custom-post-type/meta-boxes.php:85
+msgid "Featured Image Content"
+msgstr ""
+
+#: inc/custom-post-type/meta-boxes.php:86
+msgid ""
+"This content is retrieved within the Page Featured Image area. It will "
+"display only if you set a Featured Image for this page. HTML is allowed."
+msgstr ""
+
+#: inc/custom-post-type/meta-boxes.php:105
+msgid "Project Template Options"
+msgstr ""
+
+#: inc/custom-post-type/meta-boxes.php:112
+#: inc/custom-post-type/meta-boxes.php:113
+msgid "Excerpt"
+msgstr ""
+
+#: inc/custom-post-type/meta-boxes.php:125
+msgid "Number of columns"
+msgstr ""
+
+#: inc/custom-post-type/meta-boxes.php:128
+msgid "Select the number of columns."
+msgstr ""
+
+#: inc/custom-post-type/meta-boxes.php:131
+msgid "Two"
+msgstr ""
+
+#: inc/custom-post-type/meta-boxes.php:135
+msgid "Three"
+msgstr ""
+
+#: inc/custom-post-type/meta-boxes.php:139
+msgid "Four"
+msgstr ""
+
+#: inc/custom-post-type/meta-boxes.php:150
+msgid "Number of projects"
+msgstr ""
+
+#: inc/custom-post-type/meta-boxes.php:151
+msgid "Specify the number of projects per page"
+msgstr ""
+
+#: inc/custom-post-type/meta-boxes.php:178
+msgid "Project Options"
+msgstr ""
+
+#: inc/custom-post-type/meta-boxes.php:187
+msgid "Project Metadata"
+msgstr ""
+
+#: inc/custom-post-type/meta-boxes.php:193
+msgid "Project Metadata (Sidebar Layout Only)"
+msgstr ""
+
+#: inc/custom-post-type/meta-boxes.php:194
+msgid ""
+"These informations will be retrieved and displayed only if you use the "
+"Sidebar Project Layout which you can set within the Layout & Styles tab at "
+"your left."
+msgstr ""
+
+#: inc/custom-post-type/meta-boxes.php:206
+#: inc/widgets/widget-projects-single.php:135
+msgid "Case Study"
+msgstr ""
+
+#: inc/custom-post-type/meta-boxes.php:207
+msgid ""
+"The sidebar text is visible under the project title within the right sidebar "
+"layout. If you use the fullwidth layout, you can leave this field empty."
+msgstr ""
+
+#: inc/custom-post-type/meta-boxes.php:219
+msgid "Client"
+msgstr ""
+
+#: inc/custom-post-type/meta-boxes.php:220
+msgid "Enter the name of your client."
+msgstr ""
+
+#: inc/custom-post-type/meta-boxes.php:232
+msgid "Geographic Location"
+msgstr ""
+
+#: inc/custom-post-type/meta-boxes.php:233
+msgid ""
+"Enter the geographic location of the project. It could be a towm, a city or "
+"a country."
+msgstr ""
+
+#: inc/custom-post-type/meta-boxes.php:245
+#: inc/widgets/widget-projects-single.php:177
+msgid "Cost"
+msgstr ""
+
+#: inc/custom-post-type/meta-boxes.php:246
+msgid "Enter the cost of this project."
+msgstr ""
+
+#: inc/custom-post-type/meta-boxes.php:258
+#: inc/widgets/widget-projects-single.php:184
+msgid "Status"
+msgstr ""
+
+#: inc/custom-post-type/meta-boxes.php:259
+msgid ""
+"Enter the current status of this project. (IE: Completed 2014, In Progress, "
+"etc...)"
+msgstr ""
+
+#: inc/custom-post-type/meta-boxes.php:272
+msgid "Layout & Styles"
+msgstr ""
+
+#: inc/custom-post-type/meta-boxes.php:277
+msgid "Project Layout"
+msgstr ""
+
+#: inc/custom-post-type/meta-boxes.php:280
+msgid ""
+"Choose the layout of the page for your project. If you want to be free to "
+"build your showcase the way you want, choose the Fullwidth Project Layout."
+msgstr ""
+
+#: inc/custom-post-type/meta-boxes.php:287
+msgid "With Sidebar"
+msgstr ""
+
+#: inc/custom-post-type/meta-boxes.php:299
+msgid "Cover Text Color"
+msgstr ""
+
+#: inc/custom-post-type/meta-boxes.php:305
+msgid "White"
+msgstr ""
+
+#: inc/custom-post-type/meta-boxes.php:309
+msgid "Black"
+msgstr ""
+
+#: inc/custom-post-type/projects.php:9
+msgid "Projects"
+msgstr ""
+
+#: inc/custom-post-type/projects.php:10
+msgid "Project"
+msgstr ""
+
+#: inc/custom-post-type/projects.php:11
+msgid "All Projects"
+msgstr ""
+
+#: inc/custom-post-type/projects.php:12
+msgid "Add New"
+msgstr ""
+
+#: inc/custom-post-type/projects.php:13
+msgid "Add New Project"
+msgstr ""
+
+#: inc/custom-post-type/projects.php:14
+msgid "Edit"
+msgstr ""
+
+#: inc/custom-post-type/projects.php:15
+msgid "Edit Project"
+msgstr ""
+
+#: inc/custom-post-type/projects.php:16
+msgid "New Project"
+msgstr ""
+
+#: inc/custom-post-type/projects.php:17
+msgid "View Project"
+msgstr ""
+
+#: inc/custom-post-type/projects.php:18 searchform.php:4
+msgid "Search"
+msgstr ""
+
+#: inc/custom-post-type/projects.php:19
+msgid "Nothing found in the Database."
+msgstr ""
+
+#: inc/custom-post-type/projects.php:20
+msgid "Nothing found in Trash"
+msgstr ""
+
+#: inc/custom-post-type/projects.php:46
+msgid "Project Categories"
+msgstr ""
+
+#: inc/custom-post-type/projects.php:47
+msgid "Project Category"
+msgstr ""
+
+#: inc/custom-post-type/projects.php:48
+msgid "Search Project Categories"
+msgstr ""
+
+#: inc/custom-post-type/projects.php:49
+msgid "All Project Categories"
+msgstr ""
+
+#: inc/custom-post-type/projects.php:50
+msgid "Parent Project Category"
+msgstr ""
+
+#: inc/custom-post-type/projects.php:51
+msgid "Parent Project Category:"
+msgstr ""
+
+#: inc/custom-post-type/projects.php:52
+msgid "Edit Project Category"
+msgstr ""
+
+#: inc/custom-post-type/projects.php:53
+msgid "Update Project Category"
+msgstr ""
+
+#: inc/custom-post-type/projects.php:54
+msgid "Add New Project Category"
+msgstr ""
+
+#: inc/custom-post-type/projects.php:55
+msgid "New Project Category Name"
+msgstr ""
+
+#: inc/library.php:20
+#, php-format
+msgid "<h4 class=\"fn\">%1$s</h4>"
+msgstr ""
+
+#: inc/library.php:21
+msgid "F jS, Y"
+msgstr ""
+
+#: inc/library.php:273
+msgid "Read "
+msgstr ""
+
+#: inc/library.php:273
+msgid "Read more &raquo;"
+msgstr ""
+
+#: inc/library.php:352
+msgid " at "
+msgstr ""
+
+#: inc/library.php:391
+msgid "<span class=\"mobile-nav\">Previous</span>"
+msgstr ""
+
+#: inc/library.php:395
+msgid "<span class=\"mobile-nav\">Next</span>"
+msgstr ""
+
+#: inc/library.php:427
+msgid "Search Results for:"
+msgstr ""
+
+#: inc/library.php:456
+msgid "Author's Posts"
+msgstr ""
+
+#: inc/library.php:461
+msgid "Page Not Found"
+msgstr ""
+
+#: inc/library.php:499
+msgid "Link color"
+msgstr ""
+
+#: inc/library.php:500
+msgid "Hover link color"
+msgstr ""
+
+#: inc/library.php:501
+msgid "Accent color"
+msgstr ""
+
+#: inc/library.php:502
+msgid "Header color"
+msgstr ""
+
+#: inc/library.php:503
+msgid "Footer color"
+msgstr ""
+
+#: inc/library.php:639
+msgid "WPlook Panel"
+msgstr ""
+
+#: inc/library.php:649
+msgid "Theme Options"
+msgstr ""
+
+#: inc/library.php:659
+msgid "Support"
+msgstr ""
+
+#: inc/library.php:670
+msgid "Our Themes"
+msgstr ""
+
+#: inc/library.php:680
+msgid "Become our fan on Facebook"
+msgstr ""
+
+#: inc/library.php:690
+msgid "Follow us on Twitter"
+msgstr ""
+
+#: inc/library.php:709
+msgid "Tranzaction ID"
+msgstr ""
+
+#: inc/library.php:710
+msgid "Ticket"
+msgstr ""
+
+#: inc/library.php:711
+msgid "First Name"
+msgstr ""
+
+#: inc/library.php:712
+msgid "Last Name"
+msgstr ""
+
+#: inc/library.php:713
+msgid "Donation amount"
+msgstr ""
+
+#: inc/library.php:714
+msgid "Payment Source"
+msgstr ""
+
+#: inc/library.php:715
+msgid "Payment Status"
+msgstr ""
+
+#: inc/library.php:716 inc/library.php:845 inc/library.php:897
+msgid "Date"
+msgstr ""
+
+#: inc/library.php:742 inc/library.php:757 inc/library.php:772
+#: inc/library.php:788 inc/library.php:804 inc/library.php:820
+#: inc/library.php:871 inc/library.php:922
+msgid "Unknown"
+msgstr ""
+
+#: inc/library.php:760 inc/library.php:775 inc/library.php:791
+#: inc/library.php:807 inc/library.php:823 inc/library.php:874
+#: inc/library.php:925
+#, php-format
+msgid "%s"
+msgstr ""
+
+#: inc/library.php:844
+msgid "Position"
+msgstr ""
+
+#: inc/library.php:895
+msgid "Title"
+msgstr ""
+
+#: inc/library.php:896
+msgid "Company"
+msgstr ""
+
+#: inc/library.php:960
+msgid "Windows tile background color"
+msgstr ""
+
+#: inc/library.php:961
+msgid ""
+"Users of Windows Phone 8+ and Windows 8+ can pin apps to their home screens "
+"as a tile. This is the color which will be used as the background of the "
+"tile."
+msgstr ""
+
+#: inc/shortcodes.php:1523
+#, php-format
+msgid "View all posts in %s"
+msgstr ""
+
+#: inc/theme-options.php:34
+msgid "General"
+msgstr ""
+
+#: inc/theme-options.php:43
+msgid "General Settings"
+msgstr ""
+
+#: inc/theme-options.php:47
+msgid "Branding Settings"
+msgstr ""
+
+#: inc/theme-options.php:51
+msgid "Google Fonts Settings"
+msgstr ""
+
+#: inc/theme-options.php:55
+msgid "Project Settings"
+msgstr ""
+
+#: inc/theme-options.php:59
+msgid "Slider Settings"
+msgstr ""
+
+#: inc/theme-options.php:63
+msgid "Blog Settings"
+msgstr ""
+
+#: inc/theme-options.php:67
+msgid "Google Maps Settings"
+msgstr ""
+
+#: inc/theme-options.php:71
+msgid "Custom Code"
+msgstr ""
+
+#: inc/theme-options.php:82
+msgid "Affiliate ID:"
+msgstr ""
+
+#: inc/theme-options.php:85
+#, php-format
+msgid ""
+"EX: 1. Join our <a href=\"https://wplook.com/affiliates/\" target=\"_blank"
+"\">affiliate program</a> and earn 25% commissions on all sales generated "
+"through your affiliate links.<br /> The link will appear in the footer at "
+"Designed by WPlook URL."
+msgstr ""
+
+#: inc/theme-options.php:95
+msgid "Copyright"
+msgstr ""
+
+#: inc/theme-options.php:98
+msgid "Enter your Copyright notice displayed in the footer of the website"
+msgstr ""
+
+#: inc/theme-options.php:99
+msgid "&copy; 2016 The Architect. All rights reserved."
+msgstr ""
+
+#: inc/theme-options.php:109
+msgid "Google Fonts"
+msgstr ""
+
+#: inc/theme-options.php:112
+msgid ""
+"Google Fonts allow you to include custom web fonts on your pages. Preview "
+"available fonts at <a href=\"https://www.google.com/fonts/\">https://www."
+"google.com/fonts/</a>. It is recommended that for all the fonts you use, you "
+"include the <code>regular</code> and <code>latin</code> variants so every "
+"font uses a standard width and a Latin character set."
+msgstr ""
+
+#: inc/theme-options.php:117
+msgid "Select fonts"
+msgstr ""
+
+#: inc/theme-options.php:120
+msgid ""
+"Select what fonts to include from Google Fonts here and choose where to use "
+"them in the section below.<br><br>For the fonts to appear in the section "
+"below, you must save changes after selecting fonts in this section."
+"<br><br>To increase the speed of your site, include only the font variants "
+"you know you'll need. These fonts will be loaded regardless of whether or "
+"not they're used in the sections below, so make sure you delete any fonts "
+"you no longer need."
+msgstr ""
+
+#: inc/theme-options.php:130
+msgid "Change body font"
+msgstr ""
+
+#: inc/theme-options.php:133
+msgid "Do you want to change the body font?"
+msgstr ""
+
+#: inc/theme-options.php:143
+msgid "Body font"
+msgstr ""
+
+#: inc/theme-options.php:146
+msgid ""
+"Select the main font to use on the site. Don't change these settings if you "
+"don't want to -- if you don't change them, default theme values will be used."
+msgstr ""
+
+#: inc/theme-options.php:157
+msgid "Change heading font"
+msgstr ""
+
+#: inc/theme-options.php:160
+msgid "Do you want to change the heading font?"
+msgstr ""
+
+#: inc/theme-options.php:170
+msgid "Heading font"
+msgstr ""
+
+#: inc/theme-options.php:173
+msgid ""
+"Select the main font to use for headings. Don't change these settings if you "
+"don't want to -- if you don't change them, default theme values will be used."
+msgstr ""
+
+#: inc/theme-options.php:186
+msgid "Logo Image"
+msgstr ""
+
+#: inc/theme-options.php:189
+msgid "Upload your branding logo. Retina ready x@2."
+msgstr ""
+
+#: inc/theme-options.php:200
+msgid "Logo Top Margin"
+msgstr ""
+
+#: inc/theme-options.php:203
+msgid "Define the top margin space in pixels for the logo."
+msgstr ""
+
+#: inc/theme-options.php:216
+msgid "Projects Page"
+msgstr ""
+
+#: inc/theme-options.php:219
+msgid "Specify the page used for displaying all projects."
+msgstr ""
+
+#: inc/theme-options.php:231
+msgid "Projects Archive Grid Layout"
+msgstr ""
+
+#: inc/theme-options.php:234
+msgid "Choose the grid layout for the projects by Sector page."
+msgstr ""
+
+#: inc/theme-options.php:237
+msgid "2 Columns"
+msgstr ""
+
+#: inc/theme-options.php:241
+msgid "3 Columns"
+msgstr ""
+
+#: inc/theme-options.php:245
+msgid "4 Columns"
+msgstr ""
+
+#: inc/theme-options.php:264
+msgid "Slides"
+msgstr ""
+
+#: inc/theme-options.php:267
+msgid "Press the <strong>Add New</strong> button in order to add a new slider."
+msgstr ""
+
+#: inc/theme-options.php:270
+msgid "Slider Image"
+msgstr ""
+
+#: inc/theme-options.php:273
+msgid "<strong>Recommended image size:</strong> 1920x714px."
+msgstr ""
+
+#: inc/theme-options.php:284
+msgid "Slide Title"
+msgstr ""
+
+#: inc/theme-options.php:287 inc/theme-options.php:314
+msgid "Enter a slide Title."
+msgstr ""
+
+#: inc/theme-options.php:297
+msgid "Slide Title color"
+msgstr ""
+
+#: inc/theme-options.php:300
+msgid "Select a color for slider title."
+msgstr ""
+
+#: inc/theme-options.php:311
+msgid "Slide Description"
+msgstr ""
+
+#: inc/theme-options.php:324
+msgid "Slide Description color"
+msgstr ""
+
+#: inc/theme-options.php:327
+msgid "Select a color for slider description."
+msgstr ""
+
+#: inc/theme-options.php:337
+msgid "Slide Buton Text"
+msgstr ""
+
+#: inc/theme-options.php:340
+msgid "Enter the text you want to display on button, for examle: read more"
+msgstr ""
+
+#: inc/theme-options.php:341
+msgid "Read more"
+msgstr ""
+
+#: inc/theme-options.php:350
+msgid "Slide URL"
+msgstr ""
+
+#: inc/theme-options.php:353
+msgid "Enter the slider URL"
+msgstr ""
+
+#: inc/theme-options.php:372
+msgid "Revolution Slider Alias"
+msgstr ""
+
+#: inc/theme-options.php:375
+msgid ""
+"<strong>Use Revolution Slider instead of displaing the base slider "
+"(FlexSlider).</strong> If you have installed the revolution slider Plugin, "
+"add the Slider Alias here. From this example [rev_slider test1] you need to "
+"add only the test1. If you do not have the plugin you can buy it from here: "
+"http://bit.ly/1eD7aE1"
+msgstr ""
+
+#: inc/theme-options.php:386
+msgid "Show author informations"
+msgstr ""
+
+#: inc/theme-options.php:389
+msgid "Enable this option to show the author informations for each articles."
+msgstr ""
+
+#: inc/theme-options.php:405
+#, php-format
+msgid ""
+"Enter your Google Maps API keys here. These are a free code which allows "
+"maps to be displayed on your site. To create keys, follow instructions in "
+"the <a href=\"%s\">WPlook Themes documentation</a>."
+msgstr ""
+
+#: inc/theme-options.php:414
+msgid "Browser key"
+msgstr ""
+
+#: inc/theme-options.php:426
+msgid "Server key"
+msgstr ""
+
+#: inc/theme-options.php:441
+msgid "Custom CSS"
+msgstr ""
+
+#: inc/theme-options.php:442
+msgid "<p>Paste your custom CSS code here.</p>"
+msgstr ""
+
+#: inc/theme-options.php:455
+msgid "Google Analytics Tracking Code"
+msgstr ""
+
+#: inc/theme-options.php:458
+msgid "Insert the complete tracking script from analytics.google.com"
+msgstr ""
+
+#: inc/update.php:24
+#, php-format
+msgid "%1$s Updates"
+msgstr ""
+
+#: inc/update.php:25
+msgid "Theme Updates"
+msgstr ""
+
+#: inc/update.php:96
+#, php-format
+msgid "%1$s - Theme Updates"
+msgstr ""
+
+#: inc/update.php:99
+#, php-format
+msgid ""
+"A newer version of the %1$s theme, %2$s, is now available to download from "
+"WPlook Studio."
+msgstr ""
+
+#: inc/update.php:105
+msgid "Update the theme"
+msgstr ""
+
+#: inc/update.php:107
+msgid ""
+"<strong>Note:</strong> Make sure to make a backup of the theme and your "
+"WordPress site before updating the theme. Your content and settings will be "
+"preserved during the update, but it's important to have backups in case "
+"something goes wrong."
+msgstr ""
+
+#: inc/update.php:111
+msgid ""
+"<strong>Note:</strong> You are using a multisite installation of WordPress. "
+"This means you might be on an installation of WordPress managed by someone "
+"else and might not be able to install themes yourself. If this is the case, "
+"and you do not have access to the theme files, contact your administrator "
+"about performing the update to get the latest and greatest features of this "
+"theme."
+msgstr ""
+
+#: inc/update.php:115
+msgid "Manual theme update via FTP"
+msgstr ""
+
+#: inc/update.php:117 inc/update.php:124
+msgid ""
+"Download the latest version of the theme from the <a href=\"https://wplook."
+"com/my-account/\">WPlook Studio site</a>."
+msgstr ""
+
+#: inc/update.php:118
+#, php-format
+msgid ""
+"Login to your FTP account and navigate to <code>wp-content/themes</code>. "
+"Delete the theme folder called <code>%1$s</code>."
+msgstr ""
+
+#: inc/update.php:119
+#, php-format
+msgid ""
+"Extract the downloaded archive and upload the <code>%1$s</code> folder from "
+"your computer into the <code>wp-content/themes</code> folder on your server."
+msgstr ""
+
+#: inc/update.php:122
+msgid "Manual theme update via WordPress"
+msgstr ""
+
+#: inc/update.php:125
+msgid ""
+"Login to your WordPress dashboard, head over to Appearance &rarr; Themes."
+msgstr ""
+
+#: inc/update.php:126
+#, php-format
+msgid "Activate another theme and delete the %1$s theme."
+msgstr ""
+
+#: inc/update.php:127
+#, php-format
+msgid ""
+"Head over to Appearance &rarr; Themes &rarr; Add New and upload <code>%1$s."
+"zip</code>."
+msgstr ""
+
+#: inc/update.php:128
+#, php-format
+msgid "Activate the %1$s theme."
+msgstr ""
+
+#: inc/update.php:131
+msgid "Information and support"
+msgstr ""
+
+#: inc/update.php:132
+msgid ""
+"If you have made any changes to the theme files, make sure to back those up "
+"and restore them after the update has completed. In the future, you should "
+"consider using <a href=\"https://codex.wordpress.org/Child_Themes\">child "
+"themes</a> to ensure you can update safety without overwriting your changes."
+msgstr ""
+
+#: inc/update.php:133
+msgid ""
+"If you have any questions about theme updates, please do not hesitate to <a "
+"href=\"https://wplook.com/help\">contact us</a>."
+msgstr ""
+
+#: inc/update.php:135
+#, php-format
+msgid "%1$s changelog"
+msgstr ""
+
+#: inc/widgets/widget-init.php:30
+msgid "Sidebar Page"
+msgstr ""
+
+#: inc/widgets/widget-init.php:31
+msgid "The page widget area"
+msgstr ""
+
+#: inc/widgets/widget-init.php:43
+msgid "Single Projects Sidebar"
+msgstr ""
+
+#: inc/widgets/widget-init.php:44
+msgid "Widget area displayed on the single projects page."
+msgstr ""
+
+#: inc/widgets/widget-init.php:56
+msgid "Footer"
+msgstr ""
+
+#: inc/widgets/widget-init.php:57
+msgid "The Footer widget area"
+msgstr ""
+
+#: inc/widgets/widget-projects-single.php:20
+msgid "WPlook Project Info"
+msgstr ""
+
+#: inc/widgets/widget-projects-single.php:21
+msgid "Add info about the current project to the single project page"
+msgstr ""
+
+#: inc/widgets/widget-projects-single.php:41 inc/widgets/widget-text.php:92
+msgid "Title:"
+msgstr ""
+
+#: inc/widgets/widget-projects-single.php:46
+msgid "Display case study"
+msgstr ""
+
+#: inc/widgets/widget-projects-single.php:50
+msgid "Display sectors"
+msgstr ""
+
+#: inc/widgets/widget-projects-single.php:54
+msgid "Display clients"
+msgstr ""
+
+#: inc/widgets/widget-projects-single.php:58
+msgid "Display location"
+msgstr ""
+
+#: inc/widgets/widget-projects-single.php:62
+msgid "Display cost"
+msgstr ""
+
+#: inc/widgets/widget-projects-single.php:66
+msgid "Display status"
+msgstr ""
+
+#: inc/widgets/widget-projects-single.php:149
+msgid "Sector"
+msgid_plural "Sectors"
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/widgets/widget-projects-single.php:163
+msgid "Clients"
+msgstr ""
+
+#: inc/widgets/widget-projects-single.php:170
+msgid "Location"
+msgstr ""
+
+#: inc/widgets/widget-text.php:12
+msgid "WPlook text Block Widget"
+msgstr ""
+
+#: inc/widgets/widget-text.php:13
+msgid "A customizable text block widget."
+msgstr ""
+
+#: inc/widgets/widget-text.php:84
+msgid "New title"
+msgstr ""
+
+#: inc/widgets/widget-text.php:85
+msgid "Text"
+msgstr ""
+
+#: inc/widgets/widget-text.php:86
+msgid "#fff"
+msgstr ""
+
+#: inc/widgets/widget-text.php:87
+msgid "#bb3e3e"
+msgstr ""
+
+#: inc/widgets/widget-text.php:88
+msgid "-100px 0 0 0;"
+msgstr ""
+
+#: inc/widgets/widget-text.php:96
+msgid "Text:"
+msgstr ""
+
+#: inc/widgets/widget-text.php:100
+msgid "Text color:"
+msgstr ""
+
+#: inc/widgets/widget-text.php:104
+msgid "Background color:"
+msgstr ""
+
+#: inc/widgets/widget-text.php:108
+msgid "Margins:"
+msgstr ""
+
+#: page.php:47
+msgid "Oops, Page Not Found!"
+msgstr ""
+
+#: search.php:25
+msgid "Search results for:"
+msgstr ""
+
+#: search.php:26
+msgid "Found"
+msgstr ""
+
+#: search.php:26
+msgid "result(s)"
+msgstr ""
+
+#: searchform.php:3
+msgid "Search for..."
+msgstr ""
+
+#: single-projects.php:138 template-page-sidebar-left.php:67
+#: template-page-sidebar.php:62
+msgid "Uh Oh. Something is missing. Try double checking things."
+msgstr ""
+
+#: single-projects.php:141
+msgid "This is the error message in the single-custom_type.php template."
+msgstr ""
+
+#: template-page-sidebar-left.php:71 template-page-sidebar.php:66
+msgid "This is the error message in the page.php template."
+msgstr ""
+
+#: template-projects.php:114
+msgid "Oops, Projects Not Found!"
+msgstr ""

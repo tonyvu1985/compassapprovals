@@ -1,0 +1,48 @@
+/******************************************************************
+
+Stylesheet: Typography
+
+******************************************************************/
+
+
+/*
+The following is based of Typebase:
+https://github.com/devinhunt/typebase.css
+I've edited it a bit, but it's a nice starting point.
+*/
+
+
+// font stacks
+$sans-serif:        "Helvetica Neue", Helvetica, Arial, sans-serif;
+$serif:             "Georgia", Cambria, Times New Roman, Times, serif;
+
+/*
+ i imported this one in the functions file so bones would look sweet.
+ don't forget to remove it for your site.
+*/
+$body:              $sans-serif;
+$headings:          $serif;
+
+
+/*
+some nice typographical defaults
+more here: http://www.newnet-soft.com/blog/csstypography
+*/
+p {
+  color: $text-color;
+}
+
+.lead {
+  display: block;
+  color: $text-color;
+  font-size: 1.3em;
+  font-weight: 400;
+  line-height: 150%;
+  margin: 0 0 72px;
+}
+
+.black { color: $black; }
+.white { color: $white; }
+.gray { color: $gray; }
+.light-gray { color: $light-gray; }
+.accent { color: $accent; }

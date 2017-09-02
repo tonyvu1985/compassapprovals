@@ -1,0 +1,264 @@
+/******************************************************************
+
+Stylesheet: Animations Styles
+
+******************************************************************/
+
+.animated {
+    -webkit-animation-duration:.5s;
+    -moz-animation-duration:.5s;
+    -o-animation-duration:.5s;
+    animation-duration:.5s;
+    -webkit-animation-fill-mode:both;
+    -moz-animation-fill-mode:both;
+    -o-animation-fill-mode:both;
+    animation-fill-mode:both
+}
+
+.pulse:hover, .pulsing {
+	animation-name: pulse;
+	-webkit-animation-name: pulse;	
+
+	animation-duration: 1.5s;	
+	-webkit-animation-duration: 1.5s;
+
+	animation-iteration-count: infinite;
+	-webkit-animation-iteration-count: infinite;
+
+	cursor: pointer;
+}
+
+@keyframes pulse {
+	0% {
+		transform: scale(1);
+		opacity: 1;		
+	}
+	50% {
+		transform: scale(1.2);
+		opacity: 0,7;	
+	}	
+	100% {
+		transform: scale(1);
+		opacity: 1;	
+	}			
+}
+
+@-webkit-keyframes pulse {
+	0% {
+		-webkit-transform: scale(1);
+		opacity: 1;		
+	}
+	50% {
+		-webkit-transform: scale(1.2);
+		opacity: 0,7;	
+	}	
+	100% {
+		-webkit-transform: scale(1);
+		opacity: 1;	
+	}			
+}
+
+@-webkit-keyframes slideDown {
+    0% {
+        -webkit-transform:translateY(-8em)
+    }
+    100% {
+        -webkit-transform:translateY(0)
+    }
+}
+@-moz-keyframes slideDown {
+    0% {
+        -moz-transform:translateY(-8em)
+    }
+    100% {
+        -moz-transform:translateY(0)
+    }
+}
+@-o-keyframes slideDown {
+    0% {
+        -o-transform:translateY(-8em)
+    }
+    100% {
+        -o-transform:translateY(0)
+    }
+}
+@keyframes slideDown {
+    0% {
+        transform:translateY(-8em)
+    }
+    100% {
+        transform:translateY(0)
+    }
+}
+
+.animated.slideDown {
+    -webkit-animation-name:slideDown;
+    -moz-animation-name:slideDown;
+    -o-animation-name:slideDown;
+    animation-name:slideDown
+}
+@-webkit-keyframes slideUp {
+    0% {
+        -webkit-transform:translateY(0)
+    }
+    100% {
+        -webkit-transform:translateY(-8em)
+    }
+}
+@-moz-keyframes slideUp {
+    0% {
+        -moz-transform:translateY(0)
+    }
+    100% {
+        -moz-transform:translateY(-8em)
+    }
+}
+@-o-keyframes slideUp {
+    0% {
+        -o-transform:translateY(0)
+    }
+    100% {
+        -o-transform:translateY(-8em)
+    }
+}
+@keyframes slideUp {
+    0% {
+        transform:translateY(0)
+    }
+    100% {
+        transform:translateY(-8em)
+    }
+}
+
+.animated.slideUp {
+    -webkit-animation-name:slideUp;
+    -moz-animation-name:slideUp;
+    -o-animation-name:slideUp;
+    animation-name:slideUp
+}
+
+@-webkit-keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+.fadeIn {
+  -webkit-animation-name: fadeIn;
+  animation-name: fadeIn;
+}
+
+@-webkit-keyframes fadeOut {
+  0% {
+    opacity: 1;
+  }
+
+  100% {
+    opacity: 0;
+  }
+}
+
+@keyframes fadeOut {
+  0% {
+    opacity: 1;
+  }
+
+  100% {
+    opacity: 0;
+  }
+}
+
+.fadeOut {
+  -webkit-animation-name: fadeOut;
+  animation-name: fadeOut;
+}
+
+.kenburns {
+  -webkit-animation-name: kenburns;
+  -moz-animation-name: kenburns;
+  -o-animation-name: kenburns;
+  animation-name: kenburns;
+}
+
+.kenburnsreverse {
+  -webkit-animation-name: kenburnsreverse;
+  -moz-animation-name: kenburnsreverse;
+  -o-animation-name: kenburnsreverse;
+  animation-name: kenburnsreverse;
+}
+
+.kanimate {
+  -webkit-animation-fill-mode: both;
+  -moz-animation-fill-mode: both;
+  -ms-animation-fill-mode: both;
+  -o-animation-fill-mode: both;
+  animation-fill-mode: both;
+  -webkit-animation-duration: 30s;
+  -moz-animation-duration: 30s;
+  -ms-animation-duration: 30s;
+  -o-animation-duration: 30s;
+  animation-duration: 30s;
+  animation-timing-function: ease-out;
+  -webkit-animation-timing-function: ease-out;
+  /* Safari and Chrome */
+  -webkit-transform-origin: 100% 100%;
+  transform-origin: 100% 100%;
+  -moz-animation-iteration-count: 1;
+  -moz-animation-fill-mode: forwards;
+  -webkit-animation-iteration-count: 1;
+  -webkit-animation-fill-mode: forwards;
+}
+
+@-webkit-keyframes kenburns {
+  0% {
+    -webkit-transform: scale(1.2);
+  }
+
+  100% {
+    -webkit-transform: scale(1);
+  }
+}
+@keyframes kenburns {
+  0% {
+    transform: scale(1.2);
+  }
+
+  100% {
+    webkit-transform: scale(1);
+  }
+}
+/**
+ * kenburns Reverse
+ */
+@-webkit-keyframes kenburnsreverse {
+  0% {
+    -webkit-transform: scale(1);
+  }
+
+  100% {
+    -webkit-transform: scale(1.2);
+  }
+}
+@keyframes kenburnsreverse {
+  0% {
+    transform: scale(1);
+  }
+
+  100% {
+    transform: scale(1.2);
+  }
+}

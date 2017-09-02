@@ -1,0 +1,11 @@
+/*   
+Theme Name: Architect Child Theme
+Theme URI: 
+Description: Use this theme to start your Architect Child Theme development.
+Author: Victor Tihai
+Author URI: https://wplook.com/
+Template: thearchitect-wpl
+Version: 1.0.0
+*/
+
+@import url('../thearchitect-wpl/style.css');

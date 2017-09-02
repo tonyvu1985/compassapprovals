@@ -1,0 +1,114 @@
+/*
+Theme Name: TheArchitect WPL
+Theme URI: https://wplook.com
+Description: The Architect is a classic and powerful WordPress theme built for architecture agencies.
+Author: WPlook Studio
+Author URI: https://wplook.com
+Version: 1.0.7
+Tags: black, light, gray, red, four-columns, fixed-layout, fluid-layout, full-width-template, post-formats, theme-options, threaded-comments, translation-ready, custom-menu, featured-image-header, featured-images
+License: GPLv2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: thearchitect-wpl
+Domain Path: /languages
+*/
+
+/******************************************************************
+
+Stylesheet: Main Stylesheet
+
+******************************************************************/
+
+/*********************
+IMPORTING VENDOR FILES
+Vendor files from other projects
+*********************/
+@import "vendor/normalize"; // Importing an older version of Normalize which works best with this theme
+@import "vendor/font-awesome-settings";
+@import "../../bower_components/font-awesome/scss/font-awesome.scss";
+@import "../../bower_components/flexslider/flexslider";
+@import "assets/css/vendor/fresco/fresco.css";
+
+/*********************
+IMPORTING PARTIALS
+These files are needed at the beginning so that we establish all
+our mixins, functions, and variables that we'll be using across
+the whole project.
+*********************/
+
+// Sass variables
+@import "partials/variables";
+
+// typography
+@import "partials/typography";
+
+// Sass functions
+@import "partials/functions";
+
+// import mixins
+@import "partials/mixins";
+
+// the grid
+@import "partials/grid";
+
+// the grid
+@import "partials/shortcodes";
+
+/*********************
+IMPORTING MODULES
+Modules are reusable blocks or elements we use throughout the project.
+We can break them up as much as we want or just keep them all in one.
+I mean, you can do whatever you want. The world is your oyster. Unless
+you hate oysters, then the world is your peanut butter & jelly sandwich.
+*********************/
+
+// alert boxes
+@import "modules/alerts";
+
+// buttons
+@import "modules/buttons";
+
+// forms (inputs & labels)
+@import "modules/forms";
+
+// animations
+@import "modules/animations";
+
+/*********************
+BASE
+*********************/
+
+@import "breakpoints/base";
+
+/*********************
+MEDIA QUERIES
+*********************/
+
+@import "breakpoints/responsive";
+
+
+/*********************
+RETINA (2x RESOLUTION DEVICES)
+*********************/
+
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5),
+       only screen and (min--moz-device-pixel-ratio: 1.5),
+       only screen and (min-device-pixel-ratio: 1.5) {
+
+	// styles in 2x.scss
+	@import "breakpoints/2x";
+
+} // end of media query
+
+/*********************
+PRINT STYLESHEET
+Feel free to customize this. Remember to add things that won't make
+sense to print at the bottom. Things like nav, ads, and forms should
+be set to display none.
+*********************/
+
+@media print {
+
+	// styles in print.scss
+	@import "partials/print";
+
+}

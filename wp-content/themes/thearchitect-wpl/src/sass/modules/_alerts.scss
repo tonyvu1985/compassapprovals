@@ -1,0 +1,35 @@
+/******************************************************************
+
+Stylesheet: Alert Styles
+
+******************************************************************/
+
+// alerts and notices
+%alert {
+  padding: 12px;
+  border: 1px solid;
+}
+
+.alert-help {
+  @extend %alert;
+  border-color: darken($alert-yellow, 15%);
+  background: $alert-yellow;
+}
+
+.alert-info {
+  @extend %alert;
+  border-color: darken($alert-blue, 5%);
+  background: $alert-blue;
+}
+
+.alert-error {
+  @extend %alert;
+  border-color: darken($alert-red, 5%);
+  background: $alert-red;
+}
+
+.alert-success {
+  @extend %alert;
+  border-color: darken($alert-green, 5%);
+  background: $alert-green;
+}
