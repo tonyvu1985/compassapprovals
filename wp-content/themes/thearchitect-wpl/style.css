@@ -5,7 +5,7 @@ Theme URI: https://wplook.com
 Description: The Architect is a classic and powerful WordPress theme built for architecture agencies.
 Author: WPlook Studio
 Author URI: https://wplook.com
-Version: 1.0.7
+Version: 1.0.8
 Tags: black, light, gray, red, four-columns, fixed-layout, fluid-layout, full-width-template, post-formats, theme-options, threaded-comments, translation-ready, custom-menu, featured-image-header, featured-images
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
@@ -487,15 +487,15 @@ span.amp {
 }
 
 /*!
- *  Font Awesome 4.4.0 by @davegandy - http://fontawesome.io - @fontawesome
+ *  Font Awesome 4.7.0 by @davegandy - http://fontawesome.io - @fontawesome
  *  License - http://fontawesome.io/license (Font: SIL OFL 1.1, CSS: MIT License)
  */
 /* FONT PATH
  * -------------------------- */
 @font-face {
   font-family: 'FontAwesome';
-  src: url("assets/fonts/fontawesome-webfont.eot?v=4.4.0");
-  src: url("assets/fonts/fontawesome-webfont.eot?#iefix&v=4.4.0") format("embedded-opentype"), url("assets/fonts/fontawesome-webfont.woff2?v=4.4.0") format("woff2"), url("assets/fonts/fontawesome-webfont.woff?v=4.4.0") format("woff"), url("assets/fonts/fontawesome-webfont.ttf?v=4.4.0") format("truetype"), url("assets/fonts/fontawesome-webfont.svg?v=4.4.0#fontawesomeregular") format("svg");
+  src: url("assets/fonts/fontawesome-webfont.eot?v=4.7.0");
+  src: url("assets/fonts/fontawesome-webfont.eot?#iefix&v=4.7.0") format("embedded-opentype"), url("assets/fonts/fontawesome-webfont.woff2?v=4.7.0") format("woff2"), url("assets/fonts/fontawesome-webfont.woff?v=4.7.0") format("woff"), url("assets/fonts/fontawesome-webfont.ttf?v=4.7.0") format("truetype"), url("assets/fonts/fontawesome-webfont.svg?v=4.7.0#fontawesomeregular") format("svg");
   font-weight: normal;
   font-style: normal;
 }
@@ -631,35 +631,35 @@ span.amp {
 }
 
 .fa-rotate-90 {
-  filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=1);
+  -ms-filter: "progid:DXImageTransform.Microsoft.BasicImage(rotation=1)";
   -webkit-transform: rotate(90deg);
   -ms-transform: rotate(90deg);
   transform: rotate(90deg);
 }
 
 .fa-rotate-180 {
-  filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=2);
+  -ms-filter: "progid:DXImageTransform.Microsoft.BasicImage(rotation=2)";
   -webkit-transform: rotate(180deg);
   -ms-transform: rotate(180deg);
   transform: rotate(180deg);
 }
 
 .fa-rotate-270 {
-  filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
+  -ms-filter: "progid:DXImageTransform.Microsoft.BasicImage(rotation=3)";
   -webkit-transform: rotate(270deg);
   -ms-transform: rotate(270deg);
   transform: rotate(270deg);
 }
 
 .fa-flip-horizontal {
-  filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=0);
+  -ms-filter: "progid:DXImageTransform.Microsoft.BasicImage(rotation=0, mirror=1)";
   -webkit-transform: scale(-1, 1);
   -ms-transform: scale(-1, 1);
   transform: scale(-1, 1);
 }
 
 .fa-flip-vertical {
-  filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=2);
+  -ms-filter: "progid:DXImageTransform.Microsoft.BasicImage(rotation=2, mirror=1)";
   -webkit-transform: scale(1, -1);
   -ms-transform: scale(1, -1);
   transform: scale(1, -1);
@@ -2289,7 +2289,7 @@ span.amp {
   content: "";
 }
 
-.fa-pied-piper:before {
+.fa-pied-piper-pp:before {
   content: "";
 }
 
@@ -2453,6 +2453,7 @@ span.amp {
 }
 
 .fa-ra:before,
+.fa-resistance:before,
 .fa-rebel:before {
   content: "";
 }
@@ -2878,6 +2879,7 @@ span.amp {
 }
 
 .fa-battery-4:before,
+.fa-battery:before,
 .fa-battery-full:before {
   content: "";
 }
@@ -3132,8 +3134,408 @@ span.amp {
   content: "";
 }
 
+.fa-reddit-alien:before {
+  content: "";
+}
+
+.fa-edge:before {
+  content: "";
+}
+
+.fa-credit-card-alt:before {
+  content: "";
+}
+
+.fa-codiepie:before {
+  content: "";
+}
+
+.fa-modx:before {
+  content: "";
+}
+
+.fa-fort-awesome:before {
+  content: "";
+}
+
+.fa-usb:before {
+  content: "";
+}
+
+.fa-product-hunt:before {
+  content: "";
+}
+
+.fa-mixcloud:before {
+  content: "";
+}
+
+.fa-scribd:before {
+  content: "";
+}
+
+.fa-pause-circle:before {
+  content: "";
+}
+
+.fa-pause-circle-o:before {
+  content: "";
+}
+
+.fa-stop-circle:before {
+  content: "";
+}
+
+.fa-stop-circle-o:before {
+  content: "";
+}
+
+.fa-shopping-bag:before {
+  content: "";
+}
+
+.fa-shopping-basket:before {
+  content: "";
+}
+
+.fa-hashtag:before {
+  content: "";
+}
+
+.fa-bluetooth:before {
+  content: "";
+}
+
+.fa-bluetooth-b:before {
+  content: "";
+}
+
+.fa-percent:before {
+  content: "";
+}
+
+.fa-gitlab:before {
+  content: "";
+}
+
+.fa-wpbeginner:before {
+  content: "";
+}
+
+.fa-wpforms:before {
+  content: "";
+}
+
+.fa-envira:before {
+  content: "";
+}
+
+.fa-universal-access:before {
+  content: "";
+}
+
+.fa-wheelchair-alt:before {
+  content: "";
+}
+
+.fa-question-circle-o:before {
+  content: "";
+}
+
+.fa-blind:before {
+  content: "";
+}
+
+.fa-audio-description:before {
+  content: "";
+}
+
+.fa-volume-control-phone:before {
+  content: "";
+}
+
+.fa-braille:before {
+  content: "";
+}
+
+.fa-assistive-listening-systems:before {
+  content: "";
+}
+
+.fa-asl-interpreting:before,
+.fa-american-sign-language-interpreting:before {
+  content: "";
+}
+
+.fa-deafness:before,
+.fa-hard-of-hearing:before,
+.fa-deaf:before {
+  content: "";
+}
+
+.fa-glide:before {
+  content: "";
+}
+
+.fa-glide-g:before {
+  content: "";
+}
+
+.fa-signing:before,
+.fa-sign-language:before {
+  content: "";
+}
+
+.fa-low-vision:before {
+  content: "";
+}
+
+.fa-viadeo:before {
+  content: "";
+}
+
+.fa-viadeo-square:before {
+  content: "";
+}
+
+.fa-snapchat:before {
+  content: "";
+}
+
+.fa-snapchat-ghost:before {
+  content: "";
+}
+
+.fa-snapchat-square:before {
+  content: "";
+}
+
+.fa-pied-piper:before {
+  content: "";
+}
+
+.fa-first-order:before {
+  content: "";
+}
+
+.fa-yoast:before {
+  content: "";
+}
+
+.fa-themeisle:before {
+  content: "";
+}
+
+.fa-google-plus-circle:before,
+.fa-google-plus-official:before {
+  content: "";
+}
+
+.fa-fa:before,
+.fa-font-awesome:before {
+  content: "";
+}
+
+.fa-handshake-o:before {
+  content: "";
+}
+
+.fa-envelope-open:before {
+  content: "";
+}
+
+.fa-envelope-open-o:before {
+  content: "";
+}
+
+.fa-linode:before {
+  content: "";
+}
+
+.fa-address-book:before {
+  content: "";
+}
+
+.fa-address-book-o:before {
+  content: "";
+}
+
+.fa-vcard:before,
+.fa-address-card:before {
+  content: "";
+}
+
+.fa-vcard-o:before,
+.fa-address-card-o:before {
+  content: "";
+}
+
+.fa-user-circle:before {
+  content: "";
+}
+
+.fa-user-circle-o:before {
+  content: "";
+}
+
+.fa-user-o:before {
+  content: "";
+}
+
+.fa-id-badge:before {
+  content: "";
+}
+
+.fa-drivers-license:before,
+.fa-id-card:before {
+  content: "";
+}
+
+.fa-drivers-license-o:before,
+.fa-id-card-o:before {
+  content: "";
+}
+
+.fa-quora:before {
+  content: "";
+}
+
+.fa-free-code-camp:before {
+  content: "";
+}
+
+.fa-telegram:before {
+  content: "";
+}
+
+.fa-thermometer-4:before,
+.fa-thermometer:before,
+.fa-thermometer-full:before {
+  content: "";
+}
+
+.fa-thermometer-3:before,
+.fa-thermometer-three-quarters:before {
+  content: "";
+}
+
+.fa-thermometer-2:before,
+.fa-thermometer-half:before {
+  content: "";
+}
+
+.fa-thermometer-1:before,
+.fa-thermometer-quarter:before {
+  content: "";
+}
+
+.fa-thermometer-0:before,
+.fa-thermometer-empty:before {
+  content: "";
+}
+
+.fa-shower:before {
+  content: "";
+}
+
+.fa-bathtub:before,
+.fa-s15:before,
+.fa-bath:before {
+  content: "";
+}
+
+.fa-podcast:before {
+  content: "";
+}
+
+.fa-window-maximize:before {
+  content: "";
+}
+
+.fa-window-minimize:before {
+  content: "";
+}
+
+.fa-window-restore:before {
+  content: "";
+}
+
+.fa-times-rectangle:before,
+.fa-window-close:before {
+  content: "";
+}
+
+.fa-times-rectangle-o:before,
+.fa-window-close-o:before {
+  content: "";
+}
+
+.fa-bandcamp:before {
+  content: "";
+}
+
+.fa-grav:before {
+  content: "";
+}
+
+.fa-etsy:before {
+  content: "";
+}
+
+.fa-imdb:before {
+  content: "";
+}
+
+.fa-ravelry:before {
+  content: "";
+}
+
+.fa-eercast:before {
+  content: "";
+}
+
+.fa-microchip:before {
+  content: "";
+}
+
+.fa-snowflake-o:before {
+  content: "";
+}
+
+.fa-superpowers:before {
+  content: "";
+}
+
+.fa-wpexplorer:before {
+  content: "";
+}
+
+.fa-meetup:before {
+  content: "";
+}
+
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  border: 0;
+}
+
+.sr-only-focusable:active, .sr-only-focusable:focus {
+  position: static;
+  width: auto;
+  height: auto;
+  margin: 0;
+  overflow: visible;
+  clip: auto;
+}
+
 /*
- * jQuery FlexSlider v2.6.1
+ * jQuery FlexSlider v2.6.4
  * http://www.woothemes.com/flexslider/
  *
  * Copyright 2012 WooThemes
@@ -5293,14 +5695,19 @@ label {
   color: #959595;
 }
 
-form.wpcf7-form p {
+.wpcf7-form p {
   text-transform: uppercase;
   color: #959595;
   font-size: 12px;
   font-weight: bold;
 }
 
-form.wpcf7-form div.wpcf7-validation-errors {
+.wpcf7-form-control.wpcf7-text {
+  padding: 0 10px;
+  height: auto;
+}
+
+.wpcf7-form div.wpcf7-validation-errors {
   padding: 24px 24px 24px 52px;
   color: #d55d62;
   font-size: 14px;
@@ -5318,7 +5725,7 @@ form.wpcf7-form div.wpcf7-validation-errors {
   border-radius: 2px;
 }
 
-form.wpcf7-form span.wpcf7-not-valid-tip {
+.wpcf7-form span.wpcf7-not-valid-tip {
   color: #d55d62;
   text-transform: none;
   font-weight: normal;
@@ -5872,6 +6279,10 @@ nav {
 		*/
 }
 
+.nav > li:hover > .sub-menu {
+  display: block;
+}
+
 .nav > li > a {
   display: inline-block;
   padding: 0px 12px;
@@ -5898,13 +6309,17 @@ nav {
   border-bottom: 4px solid #bb3e3e;
 }
 
+.nav > li.current-menu-ancestor > a {
+  border-bottom: 4px solid red;
+}
+
 .nav > li ul.sub-menu,
 .nav > li ul.children {
   position: absolute;
   top: 89px;
   left: 0;
   display: none;
-  padding: 16px 0.85em;
+  padding: 16px 0 16px 0.85em;
   width: 100%;
   min-width: 250px;
   z-index: 9999;
@@ -5921,12 +6336,20 @@ nav {
   width: 100%;
 }
 
+.nav > li ul.sub-menu li:hover .sub-menu,
+.nav > li ul.children li:hover .sub-menu {
+  display: block;
+  position: absolute;
+  top: 0px;
+  left: 250px;
+}
+
 .nav > li ul.sub-menu li a,
 .nav > li ul.children li a {
   display: inline-block;
   font-size: 13px;
   color: #ffffff;
-  padding: 3px 12px;
+  padding: 3px 0 3px 12px;
   text-transform: none;
 }
 
@@ -6751,6 +7174,7 @@ img {
 }
 
 .filter ul li {
+  margin-left: 0px;
   display: block;
   white-space: nowrap;
   background: #959595;
@@ -6827,13 +7251,30 @@ img {
   font-size: 14px;
   letter-spacing: 0;
   text-transform: none;
-  padding: 2px 32px;
+  padding: 2px 20px;
   background: #bb3e3e;
 }
 
 .filter ul li ul.sectors li a:hover, .filter ul li ul.sectors li a:visited:hover {
   color: #ffffff;
   font-weight: 700;
+}
+
+.filter ul li ul.sectors .children {
+  background: none;
+  width: 100%;
+  margin: 0px;
+}
+
+.filter ul li ul.sectors .children .cat-item {
+  margin: 0px 0 0 0px;
+  padding: 0px 0 0 0px;
+  background: none;
+  width: 100%;
+}
+
+.filter ul li ul.sectors .children .cat-item a {
+  padding-left: 40px;
 }
 
 body.single-projects .project-cover {
@@ -6983,6 +7424,11 @@ body.single-projects #inner-content .sidebar .widget:first-child .widget-title {
   opacity: 0.9;
 }
 
+.block-grid.columns-2 .block-item {
+  width: 50%;
+  height: calc( 46vw - 100px);
+}
+
 .block-grid.columns-2 .block-item:nth-child(2n) {
   padding-right: 0;
 }
@@ -6994,6 +7440,11 @@ body.single-projects #inner-content .sidebar .widget:first-child .widget-title {
 
 .block-grid.columns-2 .block-item p {
   font-size: 14px;
+}
+
+.block-grid.columns-3 .block-item {
+  width: 33%;
+  height: calc( 31vw - 100px);
 }
 
 .block-grid.columns-3 .block-item:nth-child(3n) {
@@ -7008,6 +7459,11 @@ body.single-projects #inner-content .sidebar .widget:first-child .widget-title {
   font-size: 14px;
 }
 
+.block-grid.columns-4 .block-item {
+  width: 25%;
+  height: calc( 22vw - 100px);
+}
+
 .block-grid.columns-4 .block-item:nth-child(4n) {
   padding-right: 0;
 }
@@ -7018,18 +7474,6 @@ body.single-projects #inner-content .sidebar .widget:first-child .widget-title {
 
 .block-grid.columns-4 .block-item p {
   font-size: 14px;
-}
-
-.quarter-width {
-  width: 25%;
-}
-
-.third-width {
-  width: 33.33%;
-}
-
-.half-width {
-  width: 50%;
 }
 
 body.pace-done .block-grid .block-item {
@@ -8258,11 +8702,6 @@ MEDIA QUERIES
   body.single-projects .project-cover .hero-title {
     bottom: 90px;
   }
-  .quarter-width,
-  .third-width,
-  .half-width {
-    width: 50%;
-  }
   /* = PROJECTS
 	-------------------------------------------------------------- */
   /* Module Title */
@@ -8281,6 +8720,8 @@ MEDIA QUERIES
   }
   .block-grid.columns-3 .block-item, .block-grid.columns-4 .block-item {
     padding-right: 0;
+    width: 50%;
+    height: calc( 46vw - 100px);
   }
   .block-grid.columns-3 .block-item:nth-child(1n), .block-grid.columns-4 .block-item:nth-child(1n) {
     padding-right: 24px;
@@ -8328,10 +8769,9 @@ MEDIA QUERIES
   }
   /* = BLOCK GRID STYLES
 	-------------------------------------------------------------- */
-  .quarter-width,
-  .third-width,
-  .half-width {
+  .block-grid.columns-2 .block-item, .block-grid.columns-3 .block-item, .block-grid.columns-4 .block-item {
     width: 100%;
+    height: calc( 95vw - 100px);
   }
   /* = PROJECTS
 	-------------------------------------------------------------- */

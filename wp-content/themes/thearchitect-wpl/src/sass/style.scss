@@ -4,7 +4,7 @@ Theme URI: https://wplook.com
 Description: The Architect is a classic and powerful WordPress theme built for architecture agencies.
 Author: WPlook Studio
 Author URI: https://wplook.com
-Version: 1.0.7
+Version: 1.0.8
 Tags: black, light, gray, red, four-columns, fixed-layout, fluid-layout, full-width-template, post-formats, theme-options, threaded-comments, translation-ready, custom-menu, featured-image-header, featured-images
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
@@ -24,8 +24,8 @@ Vendor files from other projects
 *********************/
 @import "vendor/normalize"; // Importing an older version of Normalize which works best with this theme
 @import "vendor/font-awesome-settings";
-@import "../../bower_components/font-awesome/scss/font-awesome.scss";
-@import "../../bower_components/flexslider/flexslider";
+@import "../../node_modules/font-awesome/scss/font-awesome.scss";
+@import "../../node_modules/flexslider/flexslider";
 @import "assets/css/vendor/fresco/fresco.css";
 
 /*********************

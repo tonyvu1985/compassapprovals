@@ -64,7 +64,7 @@ class WPlook_Google_Maps {
 			if( $coordinates != false ) {
 				update_option( $this->options['db_address_field'], $option_address_coordinates );
 			}
-			
+
 			return $coordinates;
 		} else {
 			return $map_coordinates[$address];
@@ -73,7 +73,7 @@ class WPlook_Google_Maps {
 	}
 
 	/**
-	 * Makes a Google Maps Geocaching API request and returns the result. 
+	 * Makes a Google Maps Geocaching API request and returns the result.
 	 *
 	 * @since 1.0
 	 * @access private
@@ -82,11 +82,16 @@ class WPlook_Google_Maps {
 	 */
 	private function geocaching_api_request( $address ) {
 
-		$json = file_get_contents( 'https://maps.googleapis.com/maps/api/geocode/json?address=' . urlencode( $address ) . '&key=' . urlencode( $this->options['api_key'] ) );
+		$json = wp_remote_fopen( 'https://maps.googleapis.com/maps/api/geocode/json?address=' . urlencode( $address ) . '&key=' . urlencode( trim( $this->options['api_key'] ) ) );
 		$json = json_decode( $json );
 
 		if( $json->status != 'OK' ) {
-			echo 'Something went wrong when getting the coordinates for "' . $address . '" from the Google Maps Geocaching API. Please try again.';
+			if( isset( $json->error_message ) ) {
+				echo 'Something went wrong when getting the coordinates for "' . $address . '" from the Google Maps Geocaching API. Error message from the API: "' . $json->error_message . '" Please try again.';
+			} else {
+				echo 'Something went wrong when getting the coordinates for "' . $address . '" from the Google Maps Geocaching API. Please try again.';
+			}
+
 			return false;
 		} else {
 			$result = array(
@@ -119,6 +124,8 @@ class WPlook_Google_Maps {
 			'latitude' => null,
 			'longitude' => null,
 			'class' => null,
+			'id' => null,
+			'style' => null,
 			'height' => null,
 			'zoom' => null,
 			'saturation' => null,
@@ -155,6 +162,8 @@ class WPlook_Google_Maps {
 			ob_start(); ?>
 				<div
 					class="wplook-google-map <?php echo esc_attr( $args['class'] ); ?>"
+					id="<?php echo esc_attr( $args['id'] ); ?>"
+					style="<?php echo esc_attr( $args['style'] ); ?>"
 					<?php if( !empty( $coordinates['latitude'] ) ) : ?>data-latitude="<?php echo esc_attr( $coordinates['latitude'] ); ?>"<?php endif; ?>
 					<?php if( !empty( $coordinates['longitude'] ) ) : ?>data-longitude="<?php echo esc_attr( $coordinates['longitude'] ); ?>"<?php endif; ?>
 					<?php if( !empty( $marker ) ) : ?>data-marker-image="<?php echo esc_attr( $marker ); ?>"<?php endif; ?>
@@ -175,11 +184,13 @@ class WPlook_Google_Maps {
 				<?php endif; ?>
 			<?php $html = ob_get_clean();
 		}
-		
-		if( $echo == false ) {
-			return $html;
-		} else {
-			echo $html;
+
+		if( isset( $html ) ) {
+			if( $echo == false ) {
+				return $html;
+			} else {
+				echo $html;
+			}
 		}
 
 	}

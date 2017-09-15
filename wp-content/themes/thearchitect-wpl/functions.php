@@ -101,6 +101,8 @@ if ( ! function_exists( 'wplook_setup' ) ) {
 		add_image_size( 'thumb-1280', 1280, 9999, true );
 		add_image_size( 'blog', 1280, 500, true );
 
+		add_image_size( 'gallery-big', 300, 225, array( 'center', 'center' ) );
+
 		function sbwp_custom_image_sizes( $sizes ) {
 			return array_merge( $sizes, array(
 				'thumb-1280' => __('1280px wide', 'thearchitect-wpl'),
@@ -168,7 +170,9 @@ if ( ! function_exists( 'wpl_initiate_files' ) ) {
 		include_once( get_template_directory() . '/inc/headerdata.php' );
 
 		// Include Google Maps
-		include_once( get_template_directory() . '/inc/google-maps.php' );
+		if( !class_exists( 'WPlook_Google_Maps' ) ) {
+			include_once( get_template_directory() . '/inc/google-maps.php' );
+		}
 
 		// Include main functions
 		include_once( get_template_directory() . '/inc/library.php' );

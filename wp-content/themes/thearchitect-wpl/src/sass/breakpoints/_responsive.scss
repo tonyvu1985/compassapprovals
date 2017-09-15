@@ -51,10 +51,6 @@
 	body.single-projects .project-cover .line { margin: 10px 0; }
 	body.single-projects .project-cover .hero-title { bottom: 90px;}
 
-	.quarter-width,
-	.third-width,
-	.half-width { width: 50%; }
-
 	/* = PROJECTS
 	-------------------------------------------------------------- */
 
@@ -82,6 +78,8 @@
 
 			.block-item {
 				padding-right: 0;
+				width: 50%;
+				height: calc( 46vw - 100px );
 
 				&:nth-child(1n) {
 					padding-right: 24px;
@@ -155,9 +153,14 @@
 	/* = BLOCK GRID STYLES
 	-------------------------------------------------------------- */
 
-	.quarter-width,
-	.third-width,
-	.half-width { width: 100%; }
+	.block-grid {
+		&.columns-2, &.columns-3, &.columns-4 {
+			.block-item {
+				width: 100%;
+				height: calc( 95vw - 100px );
+			}
+		}
+	}
 
 	/* = PROJECTS
 	-------------------------------------------------------------- */

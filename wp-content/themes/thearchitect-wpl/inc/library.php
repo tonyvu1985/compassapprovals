@@ -230,7 +230,7 @@ if ( ! function_exists( 'wpl_post_gallery' ) ) {
 			$output = "<div id=\"mygallery\" class='gallery-columns-$columns cf'>\n";
 			$i = 0;
 			foreach ( $attachments as $id => $attachment ) {
-				$link = isset($attr['link']) && 'file' == $attr['link'] ? wp_get_attachment_link($id, $size, false, false) : wp_get_attachment_link($id, $size, true, false);
+				$link = isset($attr['link']) && 'file' == $attr['link'] ? wp_get_attachment_link($id, 'gallery-big', false, false) : wp_get_attachment_link($id, 'gallery-big', false, false);
 				$output .= "<{$itemtag} class='gallery-item cf'>";
 				$output .= "
 					<{$icontag} class='gallery-icon'>
@@ -564,7 +564,7 @@ if ( ! function_exists( 'wplook_print_custom_color_style' ) ) {
 			.accent-btn, input[type="submit"], .comment-respond #submit,
 			input[type="submit"]:hover, input[type="submit"]:focus {border-color: <?php echo $accent_color; ?>; }
 
-			.nav > li > a:hover, .nav > li > a.active, .nav > li.current_page_item a { border-bottom: 4px solid <?php echo $accent_color; ?>; }
+			.nav > li > a:hover, .nav > li > a.active, .nav > li.current_page_item a, .nav > li.current-menu-ancestor a { border-bottom: 4px solid <?php echo $accent_color; ?>; }
 		</style>
 	<?php }
 	if (get_option('wpl_link_color')) {

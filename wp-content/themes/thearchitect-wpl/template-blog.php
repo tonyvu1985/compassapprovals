@@ -20,7 +20,7 @@
 
 		<div id="inner-content" class="blog_content cf">
 
-			<?php $args = array( 'post_type' => 'post','post_status' => 'publish', 'posts_per_page' => 3, 'paged'=> $paged ); ?>
+			<?php $args = array( 'post_type' => 'post','post_status' => 'publish', 'posts_per_page' => ot_get_option('wpl_blogpost_per_page'), 'paged'=> $paged ); ?>
 			<?php $wp_query = null; ?>
 			<?php $wp_query = new WP_Query( $args ); ?>
 			<?php if ( $wp_query->have_posts() ) : while ( $wp_query->have_posts() ) : $wp_query->the_post(); ?>

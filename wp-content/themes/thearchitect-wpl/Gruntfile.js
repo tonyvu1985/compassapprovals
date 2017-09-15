@@ -11,7 +11,7 @@ module.exports = function(grunt) {
 			sass     : ['<%= project.src %>/sass/style.scss'],
 			font_src : ['bower_components/font-awesome/fonts/*'],
 			js_src   : [
-				'bower_components/flexslider/jquery.flexslider.js',
+				'node_modules/flexslider/jquery.flexslider.js',
 				'bower_components/jquery-hoverintent/jquery.hoverIntent.js',
 				'bower_components/jquery-backstretch/src/jquery.backstretch.js',
 				'bower_components/jquery.scrollTo/jquery.scrollTo.js',

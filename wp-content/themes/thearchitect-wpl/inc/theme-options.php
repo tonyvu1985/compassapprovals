@@ -255,6 +255,44 @@ $custom_settings = array(
 		'operator'    => 'and'
 	),
 
+	array(
+		'label'       => __( 'URL Rewrite', 'thearchitect-wpl' ),
+		'id'          => 'wpl_projects_url_rewrite',
+		'type'        => 'text',
+		'desc'        => __( '<strong>NOTE:</strong> Go to <i>Settings</i> &rarr; <i>Permalinks</i> &rarr; <i>Save Changes</i> after changing this option for your changes to take effect.', 'thearchitect-wpl' ),
+		'std'         => 'project',
+		'rows'        => '',
+		'post_type'   => '',
+		'taxonomy'    => '',
+		'class'       => '',
+		'section'     => 'project'
+	),
+
+	array(
+		'label'       => __( 'URL Rewrite Name', 'thearchitect-wpl' ),
+		'id'          => 'wpl_projects_url_rewrite_name',
+		'type'        => 'text',
+		'desc'        => __( 'The URL Rewrite name will appear in the rootline/breadcrumb', 'thearchitect-wpl' ),
+		'std'         => __( 'Projects', 'thearchitect-wpl' ),
+		'rows'        => '',
+		'post_type'   => '',
+		'taxonomy'    => '',
+		'class'       => '',
+		'section'     => 'project'
+	),
+
+	array(
+		'label'       => __( 'Category URL Rewrite', 'thearchitect-wpl' ),
+		'id'          => 'wpl_projects_category_url_rewrite',
+		'type'        => 'text',
+		'desc'        => __( '<strong>NOTE:</strong> Go to <i>Settings</i> &rarr; <i>Permalinks</i> &rarr; <i>Save Changes</i> after changing this option for your changes to take effect.', 'thearchitect-wpl' ),
+		'std'         => 'projects-category',
+		'rows'        => '',
+		'post_type'   => '',
+		'taxonomy'    => '',
+		'class'       => '',
+		'section'     => 'project'
+	),
 
 	/*-----------------------------------------------------------
 		Slider Settings
@@ -395,6 +433,19 @@ $custom_settings = array(
 		'class'       => '',
 		'section'     => 'blog',
 		'operator'    => 'and'
+	),
+
+	array(
+		'label'       => __( 'Number of posts', 'thearchitect-wpl' ),
+		'id'          => 'wpl_blogpost_per_page',
+		'type'        => 'numeric-slider',
+		'desc'        => __( 'Define the number of posts for blog template.', 'thearchitect-wpl' ),
+		'std'         => '3',
+		'rows'        => '',
+		'post_type'   => '',
+		'taxonomy'    => '',
+		'class'       => '',
+		'section'     => 'blog'
 	),
 
 	// Google Maps settings

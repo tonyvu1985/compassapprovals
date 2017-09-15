@@ -1260,11 +1260,26 @@ if (!function_exists('shortcode_projects_list')) {
                         $html .= '<a class="btn medium black" href="' . get_permalink( $root ) . '">' . $browseall . '</a>';
                         $html .= '<ul><li><a href="#">' . $cattitle . ' <span>&rsaquo;</span></a>';
                         $html .= "<ul class='sectors'>";
-                        $taxonomy = 'projects_cat';
-                        $tax_terms = get_terms($taxonomy);
-                        foreach ($tax_terms as $tax_term) {
-                            $html .= '<li><a href="' . esc_attr(get_term_link($tax_term, $taxonomy)) . '" title="' . sprintf( __( "View all projects in %s", 'thearchitect-wpl' ), $tax_term->name ) . '">' . $tax_term->name . '</a></li>';
-                        }
+
+                            $show_count = 0; // 1 for yes, 0 for no
+                            $hierarchical = 1; // 1 for yes, 0 for no
+                            $taxonomy = 'projects_cat';
+                            $title = '';
+                            $args = array(
+                              'orderby' => 'title',
+                              'order' => 'ASC',
+                              'show_count' => $show_count,
+                              'hierarchical' => $hierarchical,
+                              'taxonomy' => $taxonomy,
+                              'title_li' => $title,
+                              'echo'=> false,
+                              );
+                        
+                        $html .= wp_list_categories($args);
+
+                        $html .= '</ul>';
+
+                        
                         $html .= "</ul></li>";
                         $html .= "</ul>";
 
@@ -1306,15 +1321,7 @@ if (!function_exists('shortcode_projects_list')) {
             $terms = wp_get_post_terms(get_the_ID(), 'projects_cat');
             $project_text_color = get_post_meta(get_the_ID(), 'wpl_project_text_color', true);
             $project_location = get_post_meta(get_the_ID(), 'wpl_project_location', true);
-            if($columns == "2"){
-                $html .= "<article class='block-item half-width half-height cf";
-            } elseif($columns == "3") {
-                $html .= "<article class='block-item third-width third-height cf";
-            } elseif($columns == "4") {
-                $html .= "<article class='block-item quarter-width quarter-height cf";
-            } else {
-                $html .= "<article class='block-item third-width third-height cf";
-            }
+            $html .= "<article class='block-item cf";
             foreach ($terms as $term) {
                 $html .= " cat_$term->term_id";
             }
@@ -1429,15 +1436,7 @@ if (!function_exists('shortcode_posts_boxe')) {
         $excerpt = get_the_excerpt();
         $time = get_the_time(get_option('date_format'));
 
-            if($columns == "2"){
-                $html .= "<li class='block-item half-width half-height' style='background-color: #1c1c1e'>";
-            } elseif($columns == "3") {
-                $html .= "<li class='block-item third-width third-height' style='background-color: #1c1c1e'>";
-            } elseif($columns == "4") {
-                $html .= "<li class='block-item quarter-width quarter-height' style='background-color: #1c1c1e'>";
-            } else {
-                $html .= "<li class='block-item half-width half-height' style='background-color: #1c1c1e'>";
-            }
+            $html .= "<li class='block-item' style='background-color: #1c1c1e'>";
 
             $post_thumbnail = '';
             $post_featured_image = get_post_thumbnail_id(get_the_ID());

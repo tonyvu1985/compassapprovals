@@ -82,15 +82,6 @@
   */
   function initProjects() {
 
-	var e = jQuery(".full-width").width(),
-		b = jQuery(".quarter-width").width(),
-		a = jQuery(".third-width").width(),
-		o = jQuery(".half-width").width();
-	$(".full-height").height(e - 100);
-	$(".quarter-height").height(b - 100);
-	$(".third-height").height(a - 100);
-	$(".half-height").height(o - 100);
-
 	$imageContainerLinks.each(function () {
 		jQuery(this).addClass("fresco");
 		jQuery(this).attr("data-fresco-group", "gal-1");
@@ -139,16 +130,6 @@
 	initProjects();
 	initHero();
 
-	/* Dropdown Navigation ****************************/
-	$('nav li').hoverIntent(function(){
-		  $(this).find("a:first").addClass("active");
-		  $(this).find("ul.sub-menu").stoggle(300,"easeInOutExpo");
-	},
-
-	function(){
-	  $(this).find("a:first").removeClass("active");
-	  $(this).find("ul.sub-menu").stoggle(300,"easeInOutExpo");
-	});
 
 	/* Filter Categories ****************************/
 	$('.filter li').hoverIntent(function(){

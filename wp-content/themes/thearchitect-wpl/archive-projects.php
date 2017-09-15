@@ -57,18 +57,7 @@
 						if ($project_thumbnail) (string)$project_thumbnail = $project_thumbnail[0];
 					}
 					?>
-
-					<?php
-						if($layout == "columns-2"){
-							echo "<article class='block-item half-width half-height cf'>";
-						} elseif($layout == "columns-3") {
-							echo "<article class='block-item third-width third-height cf'>";
-						} elseif($layout == "columns-4") {
-							echo "<article class='block-item quarter-width quarter-height cf'>";
-						} else {
-							echo "<article class='block-item third-width third-height cf'>";
-						}
-					?>
+						<article class="block-item cf">
 							<a href="<?php the_permalink(); ?>" rel='bookmark' title="<?php the_title(); ?>">
 								<div class="image" style="background-image: url(<?php echo $project_thumbnail; ?>);"></div>
 								<div class="text <?php echo $project_text_color; ?>">

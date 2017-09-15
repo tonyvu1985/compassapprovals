@@ -132,14 +132,17 @@ label {
 }
 
 // wpcf7
-form.wpcf7-form p {
+.wpcf7-form p {
   text-transform: uppercase;
   color: $gray;
   font-size: 12px;
   font-weight: bold;
 }
-
-form.wpcf7-form div.wpcf7-validation-errors {
+.wpcf7-form-control.wpcf7-text {
+  padding: 0 10px;
+  height: auto;
+}
+.wpcf7-form div.wpcf7-validation-errors {
   padding: 24px 24px 24px 52px;
   color: #d55d62;
   font-size:14px;
@@ -157,7 +160,7 @@ form.wpcf7-form div.wpcf7-validation-errors {
   border-radius: 2px;
 } 
 
-form.wpcf7-form span.wpcf7-not-valid-tip {
+.wpcf7-form span.wpcf7-not-valid-tip {
   color: #d55d62;
   text-transform: none;
   font-weight: normal;
