@@ -50,7 +50,14 @@
 					</div>
 
 				</div>
-
+                                <!-- TonyVu added company address -->
+                                <div class="header-company-address">
+                                    <h5>Company Address</h5>
+                                    <p>16/390 Marion Street Condell Park<br>NSW 2200<br>
+                                    PO Box CP365 Condell Park<br>NSW 2200<br>
+                                    <a href="tel:97080212">9708 0212</a><br>
+                                    <a href="mailto:info@compassapprovals.com.au">info@compassapprovals.com.au</a></p>
+                                </div>
 				<div class="m-1of3 t-2of3 d-2of3 last-col">
 
 					<nav role="social">
